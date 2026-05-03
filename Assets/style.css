@@ -1,0 +1,63 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+/* Main container */
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+/* Main heading */
+.main-title {
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+}
+/* Section headings */
+.section-title {
+    color: green;
+    text-decoration: underline;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+/* Image styling */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+/* Lists */
+ul, ol {
+    margin-left: 20px;
+    line-height: 1.6;
+}
+/* Highlighted serving note */
+mark {
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* Link styling */
+a {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+a:hover {
+    color: red;
+}
+/* Source note styling */
+#source-note {
+ font-style: italic;
+    color: darkorange
+}
